@@ -51,3 +51,5 @@ int main() {
 // step 2: build fenwick tree on difference array D
 // step 3: for range update [l,r] with value v, do 2-point updation in fenwick tree, i.e upd(l,+v) and upd(r+1,-v)
 // step 4: for point query of index i get value via query(i)
+
+// src: https://cp-algorithms.com/data_structures/fenwick.html
