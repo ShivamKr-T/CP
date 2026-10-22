@@ -45,3 +45,9 @@ int main() {
 
     return 0;
 }
+
+// for range update and point query
+// step 1: build difference array D (where D[i]=A[i]-A[i-1] and D[0]=A[0]) [intuition : D0+D1+.....+Di=Ai]
+// step 2: build fenwick tree on difference array D
+// step 3: for range update [l,r] with value v, do 2-point updation in fenwick tree, i.e upd(l,+v) and upd(r+1,-v)
+// step 4: for point query of index i get value via query(i)
