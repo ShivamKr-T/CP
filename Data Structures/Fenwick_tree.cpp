@@ -52,4 +52,6 @@ int main() {
 // step 3: for range update [l,r] with value v, do 2-point updation in fenwick tree, i.e upd(l,+v) and upd(r+1,-v)
 // step 4: for point query of index i get value via query(i)
 
-// src: https://cp-algorithms.com/data_structures/fenwick.html
+// BINARY LIFTING ON FENWICK TREE
+// -------------------------------
+// https://codeforces.com/blog/entry/61364 
